@@ -1,0 +1,27 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 107px;
+    padding: 20px;
+    color: var(--color-font-primary);
+    background-color: var(--color-bg-footer);
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer img {
+    margin: 0 5px;
+}
+
+.ds-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ds-social-media-container {
+    display: flex;
+}

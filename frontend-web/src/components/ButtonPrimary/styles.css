@@ -1,0 +1,12 @@
+.ds-button {
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-primary);
+    border-radius: 10px;
+    font-size: 22px;
+    width: 235px;
+    height: 70px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 18px;
+    text-align: center;
+}

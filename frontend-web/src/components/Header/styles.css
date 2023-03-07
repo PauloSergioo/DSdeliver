@@ -1,0 +1,21 @@
+.ds-header {
+    height: 70px;
+    background-color: var(--color-bg-primary);
+    color: var(--color-font-primary);
+}
+
+.ds-title {
+    display: flex;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.ds-title h3 {
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.ds-title img {
+    width: 47px;
+    height: 30px;
+}

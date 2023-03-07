@@ -1,11 +1,15 @@
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import './App.css'
+import Home from './routes/Home';
 
 export default function App() {
-
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />}>
+          <Route index element={<Navigate to="/" />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
-
