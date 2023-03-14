@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --color-bg-primary:  #DA5C5C;;
+  --color-bg-primary:  #DA5C5C;
   --color-bg-secondary: ;
   --color-bg-tertiary: ;
   --color-bg-quaternary: ;
@@ -10,8 +10,7 @@
   --color-font-primary: #fff;
   --color-font-secondary: #263238;
   --color-font-tertiary: #9E9E9E;
-  --color-font-quaternary: ;
-  
+  --color-font-quaternary: #DA5C5C ;
 }
 
 * {
@@ -29,4 +28,9 @@ body {
   width: 100%;
   max-width: 1250px;
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

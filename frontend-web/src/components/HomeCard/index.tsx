@@ -8,15 +8,12 @@ export default function HomeCard() {
       <div className="ds-container-card">
         <div className="ds-description-card">
           <h1>
-            Faça seu pedido
-            <br /> que entregamos
-            <br /> pra você!!!
+            Faça seu pedido <br /> que entregamos <br /> pra você!!!
           </h1>
           <p>
-            Escolha o seu pedido e em poucos minutos
-            <br /> levaremos na sua porta
+            Escolha o seu pedido e em poucos minutos <br /> levaremos na sua porta
           </p>
-          <ButtonPrimary />
+            <ButtonPrimary />
         </div>
         <div className="ds-card-home">
           <img src={homeImg} alt="HomeCard" />

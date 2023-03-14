@@ -1,9 +1,10 @@
-import './styles.css';
+import "./styles.css";
+import { Link } from "react-router-dom";
 
 export default function ButtonPrimary() {
   return (
     <div className="ds-button">
-      Fazer Pedido
+      <Link to={"/orders"}>Fazer Pedido</Link>
     </div>
   );
 }

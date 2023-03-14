@@ -24,4 +24,5 @@ footer img {
 
 .ds-social-media-container {
     display: flex;
+    cursor: pointer;
 }
