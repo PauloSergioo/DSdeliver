@@ -2,8 +2,8 @@
 
 :root {
   --color-bg-primary:  #DA5C5C;
-  --color-bg-secondary: ;
-  --color-bg-tertiary: ;
+  --color-bg-secondary: #FFF;
+  --color-bg-tertiary: #F5F5F5;
   --color-bg-quaternary: ;
   --color-bg-footer: #263238;
 
@@ -11,6 +11,9 @@
   --color-font-secondary: #263238;
   --color-font-tertiary: #9E9E9E;
   --color-font-quaternary: #DA5C5C ;
+
+  --color-border-primary: #E6E6E6;
+  --color-border-secondary: #C4C4C4;
 }
 
 * {
@@ -26,7 +29,7 @@ body {
 
 .ds-container {
   width: 100%;
-  max-width: 1250px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 

@@ -1,0 +1,40 @@
+.ds-card {
+  background-color: var(--color-bg-secondary);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  width: 235px;
+  height: 463px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 13px;
+}
+
+.ds-card-title {
+  color: var(--color-font-quaternary);
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ds-card-img img {
+  width: 220px;
+  border-radius: 10px;
+  border: 1px solid var(--color-border-secondary);
+}
+
+.ds-card-price {
+  color: var(--color-font-quaternary);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.ds-card-description {
+  color: var(--color-font-tertiary);
+  border-top: 1px solid var(--color-border-primary);
+  font-size: 14px;
+}
+
+.ds-title-bold {
+  font-weight: bold;
+  margin: 13px 0;
+}
