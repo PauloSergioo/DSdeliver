@@ -1,0 +1,25 @@
+.ds-card-location {
+    background-color: var(--color-bg-secondary);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    height: 540px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 15px 13px;
+}
+
+.ds-card-location h3 {
+    color: var(--color-font-tertiary);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.dsc-map img {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 450px;
+    border-radius: 10px;
+}

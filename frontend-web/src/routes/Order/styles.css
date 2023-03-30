@@ -1,6 +1,9 @@
 #ds-catalog-section {
-    background-color: var(--color-bg-tertiary);
     padding: 30px 0;
+}
+
+.ds-background-main {
+  background-color: var(--color-bg-tertiary);
 }
 
   .dsc-catalog-cards {

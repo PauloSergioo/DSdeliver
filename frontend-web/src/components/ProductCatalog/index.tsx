@@ -1,24 +1,30 @@
 import "./styles.css";
-import pizzaImg from "../../assets/pizza.png";
+import { ProductDTO } from "../../models/product";
 
-export default function ProductCatalog() {
+type Props = {
+  product: ProductDTO;
+};
+
+export default function ProductCatalog({ product }: Props) {
   return (
     <div className="ds-card ds-container">
       <div className="ds-card-title">
-        <h5>Pizza Calabresa</h5>
+        <h5>
+            {product.name}
+        </h5>
       </div>
       <div className="ds-card-img">
-        <img src={pizzaImg} alt="pizza" />
+        <img src={product.imageUri} alt={product.name} />
       </div>
       <div className="ds-card-price">
-        <h4>R$ 35,90</h4>
+        <h4>
+            R$ {product.price.toFixed(2).replace(".", ",")}
+        </h4>
       </div>
       <div className="ds-card-description">
         <p className="ds-title-bold">Descrição</p>
         <p>
-          Uma deliciosa combinação de Linguiça Calabresa, rodelas de cebolas
-          frescas, azeitonas pretas, mussarela, polpa de tomate, orégano e massa
-          especial.
+            {product.description}
         </p>
       </div>
     </div>

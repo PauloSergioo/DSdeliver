@@ -23,10 +23,6 @@
   font-family: "Open Sans";
 }
 
-body {
-    min-width: 100vh;
-  }
-
 .ds-container {
   width: 100%;
   max-width: 1000px;

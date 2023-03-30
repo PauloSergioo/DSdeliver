@@ -2,10 +2,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 107px;
+    height: 130px;
     padding: 20px;
     color: var(--color-font-primary);
     background-color: var(--color-bg-footer);
+    margin-top: 195px;
 }
 
 footer p {
@@ -23,6 +24,5 @@ footer img {
 }
 
 .ds-social-media-container {
-    display: flex;
     cursor: pointer;
 }
