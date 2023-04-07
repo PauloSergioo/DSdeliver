@@ -1,0 +1,29 @@
+.ds-summary {
+    background-color: var(--color-bg-primary);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    margin-bottom: 30px;
+}
+
+.ds-total {
+    color: var(--color-font-primary);
+}
+
+.ds-make-order {
+    background-color: var(--color-bg-secondary);
+    border-radius: 10px;
+    height: 46px;
+    width: 222px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var( --color-font-quaternary);
+    font-weight: bold;
+}
+
+.ds-bold {
+    font-weight: bold;
+}

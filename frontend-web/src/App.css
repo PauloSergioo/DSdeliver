@@ -4,7 +4,7 @@
   --color-bg-primary:  #DA5C5C;
   --color-bg-secondary: #FFF;
   --color-bg-tertiary: #F5F5F5;
-  --color-bg-quaternary: ;
+  --color-bg-quaternary: #E1E1E1;
   --color-bg-footer: #263238;
 
   --color-font-primary: #fff;
@@ -14,6 +14,7 @@
 
   --color-border-primary: #E6E6E6;
   --color-border-secondary: #C4C4C4;
+  --color-border-hover: #008E5B;
 }
 
 * {

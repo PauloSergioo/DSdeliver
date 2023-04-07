@@ -38,3 +38,9 @@
   font-weight: bold;
   margin: 13px 0;
 }
+
+.ds-card:hover {
+  border: 3px solid var(--color-border-hover);
+}
+
+

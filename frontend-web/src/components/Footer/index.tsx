@@ -5,8 +5,6 @@ import instagramImg from "../../assets/instagram.png";
 
 export default function Footer() {
   return (
-    
-    <footer>
       <div className="ds-footer-container">
         <div>
           <p>App desenvolvido durante a 2ª ed. do evento <b>Semana DevSuperior</b></p>
@@ -17,6 +15,5 @@ export default function Footer() {
           <img src={instagramImg} alt="instagram" />
         </div>
       </div>
-    </footer>
   );
 }

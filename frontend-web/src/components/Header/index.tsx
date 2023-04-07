@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header>
       <div className="ds-header">
         <div className="ds-title">
           <img src={logoImg} alt="logo" />
@@ -13,6 +12,5 @@ export default function Header() {
           </Link>
         </div>
       </div>
-    </header>
   );
 }

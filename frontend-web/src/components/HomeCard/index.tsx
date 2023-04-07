@@ -4,7 +4,6 @@ import ButtonPrimary from "../ButtonPrimary";
 
 export default function HomeCard() {
   return (
-    <main>
       <div className="ds-container-card">
         <div className="ds-description-card">
           <h1>
@@ -19,6 +18,5 @@ export default function HomeCard() {
           <img src={homeImg} alt="HomeCard" />
         </div>
       </div>
-    </main>
   );
 }
