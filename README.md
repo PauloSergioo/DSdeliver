@@ -19,9 +19,9 @@ caso de uso.
 ### Visão geral do sistema:
 
 Desenvolvi um sistema de Delivery que permite aos usuários escolherem os produtos que desejam consumir e retornar um valor total. Utilizamos a biblioteca Axios para fazer uma requisição pro backend e salvar as informações no banco de dados, incluindo dados do produto, endereço do cliente e suas respectivas latitude e longitude.
-O objetivo do nosso sistema de Delivery foi facilitar a vida dos usuários, oferecendo uma plataforma simples e intuitiva para que possam realizar pedidos com rapidez e praticidade. Além disso, o nosso sistema também ajuda os estabelecimentos a gerenciar seus pedidos e aprimorar a experiência de seus clientes.
+O objetivo do nosso sistema de Delivery foi facilitar a vida dos usuários, oferecendo uma plataforma simples e intuitiva para que possam realizar pedidos com rapidez e praticidade. Além disso, o sistema também ajuda os estabelecimentos a gerenciar seus pedidos e aprimorar a experiência de seus clientes.
 Ao desenvolver o sistema, utilizamos tecnologias de ponta, incluindo a integração com APIs externas e a criação de uma interface amigável para os usuários. Além disso, implementamos medidas de segurança para garantir a privacidade e a proteção das informações dos usuários.
-Como resultado, nosso sistema de Delivery tem sido bem-sucedido em fornecer aos usuários uma experiência de compra fácil e intuitiva, além de permitir que os estabelecimentos gerenciem seus pedidos com eficiência e eficácia.
+Como resultado, meu sistema de Delivery tem sido bem-sucedido em fornecer aos usuários uma experiência de compra fácil e intuitiva, além de permitir que os estabelecimentos gerenciem seus pedidos com eficiência e eficácia.
 
 ##
 
