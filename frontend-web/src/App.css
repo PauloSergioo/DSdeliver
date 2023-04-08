@@ -14,7 +14,7 @@
 
   --color-border-primary: #E6E6E6;
   --color-border-secondary: #C4C4C4;
-  --color-border-hover: #008E5B;
+  --color-border-selected: #008E5B;
 }
 
 * {

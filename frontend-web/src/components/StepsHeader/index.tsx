@@ -13,9 +13,6 @@ export default function StepsHeader() {
           <p> <span className="ds-number-steps">1</span>  Selecione os produtos e localização.</p>
           <p> <span className="ds-number-steps">2</span> Depois clique em <span className="ds-bold-step">“ENVIAR PEDIDO”</span></p>
         </div>
-        <div className="ds-context-steps">
-          <div>Pedido enviado com sucesso! Nº 5</div>
-        </div>
       </div>
     </header>
   );
